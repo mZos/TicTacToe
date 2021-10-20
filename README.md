@@ -1,55 +1,35 @@
-# Nano React App Default Javascript Template
-
-The default template project for [nano-react-app](https://github.com/adrianmcli/nano-react-app).
-
-- `npm start` — This will spawn a development server with a default port of `1234`.
-- `npm run build` — This will output a production build in the `dist` directory.
-
-## Custom port
-
-You can use the `-p` flag to specify a port for development. To do this, you can either run `npm start` with an additional flag:
-
-```
-npm start -- -p 3000
-```
-
-Or edit the `start` script directly:
-
-```
-parcel index.html -p 3000
-```
-
-## Adding styles
-
-You can use CSS files with simple ES2015 `import` statements anywhere in your Javascript:
-
-```js
-import "./index.css";
-```
-
-## Babel transforms
-
-The Babel preset [babel-preset-nano-react-app](https://github.com/nano-react-app/babel-preset-nano-react-app) is used to support the same transforms that Create React App supports.
-
-The Babel configuration lives inside `package.json` and will override an external `.babelrc` file, so if you want to use `.babelrc` remember to delete the `babel` property inside `package.json`.
+# ![WebApp](https://github.com/mZos/TicTacToe/blob/master/screenshots/1.png)
+# Tic Tac Toe WebApp
+<table>
+<tr>
+<td>
+  A Tic Tac Toe game webapp using React.js, Node.js and SASS. 
+</td>
+</tr>
+</table>
 
 
-## Deploy to GitHub Pages
+## Demo
+Here is a working live demo :  https://tictactoebymz.surge.sh
 
-You can also deploy your project using GitHub pages.
-First install the `gh-pages` [package](https://github.com/tschaub/gh-pages):
 
-`npm i -D gh-pages`
+## Site
 
-With Parcel's `--public-url` flag, use the following scripts for deployment:
+![](https://github.com/mZos/TicTacToe/blob/master/screenshots/2.png)
 
-```
-"scripts": {
-  "start": "parcel index.html",
-  "build": "parcel build index.html --public-url '.'",
-  "predeploy": "rm -rf dist && parcel build index.html --public-url '.'",
-  "deploy": "gh-pages -d dist"
-},
-```
+## Mobile support
+The WebApp is compatible with devices of all sizes and all OS's.
 
-Then follow the normal procedure in GitHub Pages and select the `gh-pages` branch.
+| <img src="https://github.com/mZos/TicTacToe/blob/master/screenshots/mobile2.jpeg" width="200" /> | <img src="https://github.com/mZos/TicTacToe/blob/master/screenshots/mobile1.jpeg" width="200"/> |
+|:---:|:---:|
+
+## Built with 
+
+- [React.js](https://reactjs.org/docs/getting-started.html) - JavaScript library
+- [Node.js](https://nodejs.org/) - JavaScript runtime environment
+- [SASS](https://www.npmjs.com/package/node-sass) - SASS stands for Syntactically Awesome Stylesheet, Extansion to CSS. 
+
+## Developer
+| <a href="https://github.com/mZos"><img src="https://avatars.githubusercontent.com/u/52007943?v=4" width="200" height="200"/></a>|
+|:---:|
+|<a href="https://github.com/mZos">Mohammad Zakariya</a>|
