@@ -10,7 +10,7 @@
 
 
 ## Demo
-Here is a working live demo :  https://tictactoebymz.surge.sh
+Here is a working live demo :  http://tictactoebymz.surge.sh
 
 
 ## Site
